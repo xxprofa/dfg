@@ -85,7 +85,7 @@ RunService.Stepped:Connect(function()
 end)
 local speedSection = vehiclePage:addSection("Speed= Quick as FUK")
 local velocityMult = 0.025;
-speedSection:addSlider("Speed Level, FUCKING DOPE NIGGA!", 25, 0, 50, function(v) velocityMult = v / 1000; end)
+speedSection:addSlider("Speed Level, FUCKING DOPE NIGGA!", 25, 0, 5000000000000000, function(v) velocityMult = v / 1000; end)
 local velocityEnabledKeyCode = Enum.KeyCode.W;
 speedSection:addKeybind("h̵̢̨̧͇̳͙̰͛̓̈́̔̓̿́́͂̕̕͠ǐ̵̧̧̛̛̛̹̮̖̠̙̠̲̟̜͙͓͔̟̣͉̻̏͛̂̈́̄̾̅̎̎̎̀̐̃̈́͋͘ͅ", velocityEnabledKeyCode, function()
 	if not velocityEnabled then
